@@ -1,6 +1,10 @@
 # xv6 Synchronization
 
-This project extends the xv6 operating system with Peterson-lock-based synchronization primitives and builds a userspace tournament-tree library for multi-process mutual exclusion.
+A low-level systems programming project implementing synchronization mechanisms in xv6.
+
+This project extends the xv6 operating system with synchronization primitives and was developed as part of an Operating Systems course (2025).
+
+It focuses on concurrency, mutual exclusion, and practical systems programming.
 
 ## Overview
 
@@ -13,6 +17,8 @@ The project was implemented in two stages:
    Built a userspace synchronization library on top of Peterson locks to support mutual exclusion among multiple processes using a tournament tree structure.
 
 This project demonstrates how a theoretical synchronization algorithm can be adapted into a practical system in xv6.
+
+The implementation bridges theoretical synchronization algorithms with practical kernel-level system design.
 
 ## Features
 
@@ -69,6 +75,8 @@ This project demonstrates how a theoretical synchronization algorithm can be ada
 - How to build higher-level synchronization abstractions in userspace
 - How concurrency issues are affected by memory ordering and atomic operations
 
-## Notes
+## Contribution
 
-This project was developed as part of an Operating Systems course and focuses on synchronization, concurrency, and practical systems programming.
+This project was developed collaboratively in a team of two.
+
+Collaborated with Sapir Tzoraro.
